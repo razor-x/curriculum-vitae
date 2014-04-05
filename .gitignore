@@ -1,38 +1,97 @@
-.export_dir
-.kateproject.d/
-builds/
+# Parts of this file were adapted from
+# GitHub’s collection of .gitignore file templates
+# which are Copyright (c) 2014 GitHub, Inc.
+# and released under the MIT License.
+# For more details, visit the project page:
+# https://github.com/github/gitignore
+
+## Ruby
 Gemfile.lock
+
+## Build
+build/
+
+## Bower
+tex/components/
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+
+## Intermediate documents:
+*.dvi
+# these rules might exclude image files for figures etc.
+# *.ps
+# *.eps
+*.pdf
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+# .bib files are managed externally
+*.bib
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Auxiliary and intermediate files from other packages:
+
+# algorithms
+*.alg
+*.loa
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.snm
+*.vrb
+
+# glossaries
 *.acn
 *.acr
-*.alg
-*.aux
-*.backup
-*.bbl
-*.blg
-*.dvi
-*.fdb_latexmk
 *.glg
 *.glo
 *.gls
+
+# hyperref
+*.brf
+
+# listings
+*.lol
+
+# makeidx
 *.idx
 *.ilg
 *.ind
 *.ist
-*.lof
-*.log
-*.lot
+
+# minitoc
 *.maf
 *.mtc
 *.mtc0
-*.nav
+
+# minted
+*.pyg
+
+# nomencl
 *.nlo
-*.out
-*.pdfsync
-*.ps
-*.snm
-*.synctex.gz
-*.toc
-*.vrb
-*.xdy
+
+# todonotes
 *.tdo
-*.pdf
+
+# xindy
+*.xdy
