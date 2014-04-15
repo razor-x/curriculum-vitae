@@ -7,9 +7,10 @@ can be found at [evansosenko.com/cv/](http://evansosenko.com/cv/).
 
 ## Requirements
 
-- `pdfTeX` and [`latexmk`](http://www.ctan.org/pkg/latexmk/),
+- `xelatex` and [`latexmk`](http://www.ctan.org/pkg/latexmk/),
   packaged with a modern LaTeX distribution,
   e.g., [TeX Live](http://www.tug.org/texlive/).
+- [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
 - [Ruby 2](https://www.ruby-lang.org/)
   with [Bundler](http://bundler.io/) (optional).
 
@@ -51,7 +52,7 @@ To build the tex source,
 
 ````bash
 $ cd tex
-$ latexmk -pdf curriculum_vitae.tex
+$ latexmk -xelatex curriculum_vitae.tex
 ````
 
 ## License

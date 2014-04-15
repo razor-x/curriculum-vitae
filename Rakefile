@@ -18,7 +18,7 @@ task :tex do
   fail RuntimeError, "Error: #{path} not found." unless File.exists? path
 
   Dir.chdir tex_src do
-    system 'latexmk', '-pdf', '-f', "#{name}.tex"
+    system 'latexmk', '-xelatex', '-f', "#{name}.tex"
     FileUtils.mv "#{name}.pdf", File.join('../', build, "#{build_name}.pdf")
   end
 end
