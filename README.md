@@ -20,29 +20,29 @@ can be found at [evansosenko.com/cv/](https://evansosenko.com/cv/).
 
 If you have Ruby with Bundler, install the needed gems with
 
-````bash
+```bash
 $ bundle
-````
+```
 
 To build all targets,
 
-````bash
+```bash
 $ rake
-````
+```
 
 Output files will be saved in the `build` directory.
 
 To see other rake tasks,
 
-````bash
+```bash
 $ rake -D
-````
+```
 
 You can run
 
-````bash
+```bash
 $ guard
-````
+```
 
 which will automatically rebuild on changes.
 
@@ -50,10 +50,10 @@ which will automatically rebuild on changes.
 
 To build the tex source,
 
-````bash
+```bash
 $ cd tex
 $ latexmk -xelatex curriculum_vitae.tex
-````
+```
 
 ## License
 
