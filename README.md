@@ -1,5 +1,7 @@
 # Evan Sosenko's curriculum vitae
 
+[![All rights reserved](https://img.shields.io/badge/license-All_rights_reserved-blue.svg)](./LICENSE.txt)
+
 This is the LaTeX source for my curriculum vitae.
 
 My curriculum vitae with a link to the PDF version
@@ -57,7 +59,7 @@ $ latexmk -xelatex curriculum_vitae.tex
 
 ## License
 
-This work is Copyright © 2013-2014 Evan Sosenko.
+This work is Copyright © 2013-2015 Evan Sosenko.
 
 ## Warranty
 
